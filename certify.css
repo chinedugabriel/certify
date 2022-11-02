@@ -1,0 +1,39 @@
+body{
+    padding: 0px;
+    margin: 0px;
+}
+/* font-family: 'Ms Madi', cursive; */
+section.sec1{
+    width: 99.9%;
+    height: 99.7vh;
+    border: 1px solid red;
+    display: flex;
+    flex-flow: column nowrap;
+    justify-content: center;
+    align-items: center;
+    background-image: url("img/educative_duddlli-removebg-preview\ 1.png");
+}
+section.sec1>.certify-logo{
+    background-image: url("img/Certify-logo.png");
+    width: 267px;
+    height: 268px;
+}
+section.sec1>.certify-welcome-text>p{
+    font-size: 54px;
+    font-family: 'Ms Madi', cursive;
+}
+section.sec1>button{
+    font-size: 20px;
+    height: 50px;
+    width: 124px;
+    display:flex;
+    flex-flow: row nowrap;
+    justify-content: space-evenly;
+    align-items: center;
+    position: absolute;
+    right: 50px;
+    bottom: 15%;
+    background-color: transparent;
+    border: 1px solid black;
+    
+}
