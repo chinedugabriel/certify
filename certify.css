@@ -2,26 +2,41 @@ body{
     padding: 0px;
     margin: 0px;
 }
-/* font-family: 'Ms Madi', cursive; */
+/* Removed padding & margin */
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+/* section.sec1 Starts here */
 section.sec1{
     width: 99.9%;
     height: 99.7vh;
     border: 1px solid red;
+    background-image: url("img/educative_duddlli-removebg-preview\ 1.png");
     display: flex;
     flex-flow: column nowrap;
     justify-content: center;
     align-items: center;
-    background-image: url("img/educative_duddlli-removebg-preview\ 1.png");
+    gap: 15px;
 }
+/* section.sec1>.certify-logo Starts here */
 section.sec1>.certify-logo{
     background-image: url("img/Certify-logo.png");
     width: 267px;
     height: 268px;
+    margin: 0px;
 }
+/* section.sec1>.certify-logo Ends here */
+
+/* section.sec1>.certify-welcome-text>p Starts here */
 section.sec1>.certify-welcome-text>p{
     font-size: 64px;
     font-family: 'Ms Madi', cursive;
 }
+/* section.sec1>.certify-welcome-text>p Ends here */
+
+/* section.sec1>button Starts Here */
 section.sec1>button{
     font-size: 20px;
     height: 50px;
@@ -37,3 +52,6 @@ section.sec1>button{
     border: 1px solid black;
     
 }
+/* section.sec1>button Ends Here */
+
+/* section.sec1 Ends here */
