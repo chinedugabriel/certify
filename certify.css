@@ -19,6 +19,8 @@ section.sec1{
     justify-content: center;
     align-items: center;
     gap: 15px;
+    /* muted here */
+    display: none;
 }
 /* section.sec1>.certify-logo Starts here */
 section.sec1>.certify-logo{
@@ -55,3 +57,24 @@ section.sec1>button{
 /* section.sec1>button Ends Here */
 
 /* section.sec1 Ends here */
+
+/* section.sec2 starts here */
+section.sec2{
+    display: flex;
+    flex-flow: row nowrap;
+
+}
+
+/* section.sec2>.col-1 starts here */
+section.sec2>.col-1{
+    background-color: #D9D9D9;
+    height: 100vh;
+    width: 20%;
+    display: flex;
+    flex-flow: column nowrap;
+    
+}
+/* section.sec2>.col-1 ends here */
+section.sec2>.col-2{
+
+}
