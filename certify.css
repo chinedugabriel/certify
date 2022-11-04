@@ -74,7 +74,70 @@ section.sec2>.col-1{
     flex-flow: column nowrap;
     
 }
+/* dashboard Logo */
+section.sec2>.col-1>.logo-sec{
+    /* border: 1px solid red; */
+    border-bottom: 1px solid black;
+    height: 65px;
+    background-image: url("img/certify-logo-c.png");
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+section.sec2>.col-1>div.personalize-zone{
+    display: flex;
+    flex-flow: column nowrap;
+    align-items: center;
+    /* justify-content: space-around; */
+    gap: 20px;
+    height: 85%;
+    border: 1px solid blue;
+    padding: 20px 0px 10px 0px;
+}
+
+/* all p tag should have this style */
+section.sec2>.col-1 p{
+    font-size: 19px;
+    font-weight: 400;
+    
+}
+section.sec2>.col-1>div.personalize-zone>.btn-group{
+    height: 60px;
+    border: 1px solid blue;
+}
+section.sec2>.col-1>div.personalize-zone>.btn-group>button{
+    height: 44px;
+    width: 110px;
+    background-color: transparent;
+    border: none;
+    font-size: 19px;
+    font-weight: 400;
+}
+section.sec2>.col-1>div.personalize-zone>.btn-group>button:first-child{
+    border: 1px solid black;
+    
+}
+
+section.sec2>.col-1>div.personalize-zone>.media-inputs{
+    border: 1px solid blue;
+    height: 87%;
+    display: flex;
+    flex-flow: column nowrap;
+    justify-content: space-around;
+}
+
+/* section.sec2>.col-1>div.personalize-zone> */
 /* section.sec2>.col-1 ends here */
 section.sec2>.col-2{
-
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 99.6vh;
+    width: 80%;
+    border: 1px solid rgb(41, 148, 31);
+}
+section.sec2>.col-2>.display-certificate{
+    border: 1px solid blue;
+    height: 85%;
+    width: 85%;
 }
