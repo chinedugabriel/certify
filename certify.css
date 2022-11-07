@@ -103,22 +103,8 @@ section.sec2>.col-1 p{
     font-weight: 400;
     
 }
-section.sec2>.col-1>div.personalize-zone>.btn-group{
-    height: 60px;
-    border: 1px solid blue;
-}
-section.sec2>.col-1>div.personalize-zone>.btn-group>button{
-    height: 44px;
-    width: 110px;
-    background-color: transparent;
-    border: none;
-    font-size: 19px;
-    font-weight: 400;
-}
-section.sec2>.col-1>div.personalize-zone>.btn-group>button:first-child{
-    border: 1px solid black;
-    
-}
+
+
 
 /* section.sec2>.col-1>div.personalize-zone>.media-inputs start here */
 section.sec2>.col-1>div.personalize-zone>.media-inputs{
@@ -237,8 +223,84 @@ section.sec2>.col-1>div.personalize-zone>.media-inputs>.wrapper-3>div{
 }
 /* Next button ends here */
 
+/* fill-certificate-info */
+
+/* div.fill-certificate-info starts Here */
+
+div.fill-certificate-info{
+    height: 90%;
+    border: 2px solid rebeccapurple;
+    display: flex;
+    flex-flow: column nowrap;
+    align-items: center;
+    justify-content: space-around;
+
+}
+/* Btn Group starts here */
+.btn-group{
+    /* height: 40px; */
+    border: 1px solid blue;
+}
+.btn-group>button{
+    height: 44px;
+    width: 110px;
+    background-color: transparent;
+    border: none;
+    font-size: 19px;
+    font-weight: 400;
+}
+.btn-group>button:first-child{
+    border: 1px solid black;  
+}
+
+/* group-2 starts here for Download and print BTN */
+.btn-group-2{
+    width:80%;
+    display: flex;
+    justify-content: space-around;
+    flex-flow: row nowrap;
+}
+
+.btn-group-2>button{
+    height: 44px;
+    width: 110px;
+    background-color: transparent;
+    border: 1px solid black;  
+    font-size: 19px;
+    font-weight: 400;
+}
+/* group-2 Ends here for Download and print BTN */
+/* Btn Group ends here */
+
+div.fill-certificate-info>form{
+    height: 80%;
+    width: 80%;
+    display: flex;
+    flex-flow: column nowrap;
+    align-items: center;
+    justify-content: space-evenly;
+    border: 2px solid rgb(153, 51, 139);
+
+}
+div.fill-certificate-info>form>div{
+    display: flex;
+    flex-flow: column nowrap;
+    justify-content: ;
+    align-items: flex-start;
+    width: 90%;
+    /* padding: 0px 10px; */
+}
+div.fill-certificate-info>form>div>input{
+    width: 100%;
+    height: 50px;
+    
+}
+
+/* div.fill-certificate-info ends Here */
+
+/* -------Section 2---------- */
+
 /* section.sec2>.col-1>div.personalize-zone> */
-/* section.sec2>.col-1 ends here */
 section.sec2>.col-2{
     display: flex;
     justify-content: center;
@@ -257,3 +319,5 @@ section.sec2>.col-2>.display-certificate{
     background-position: center;
 }
 
+
+    /* section.sec2>.col-1 ends here */
