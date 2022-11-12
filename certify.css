@@ -317,7 +317,21 @@ section.sec2>.col-2>.display-certificate{
     background-repeat: no-repeat;
     background-size: contain;
     background-position: center;
+    position: relative;
 }
-
+/* add-child-element-add starts here */
+section>div.col-2>.display-certificate>.add-child-element-add{
+    border:2px solid gold;
+    height: 50px;
+    width: 50px;
+    z-index: 100;
+    position: absolute;
+    right: 0;
+    background-image: url("img/setting.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+}
+/* add-child-element-add ends here */
 
     /* section.sec2>.col-1 ends here */
