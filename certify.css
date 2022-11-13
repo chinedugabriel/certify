@@ -234,7 +234,8 @@ div.fill-certificate-info{
     flex-flow: column nowrap;
     align-items: center;
     justify-content: space-around;
-
+    /* Unmute here */
+    display: none;
 }
 /* Btn Group starts here */
 .btn-group{
@@ -285,7 +286,7 @@ div.fill-certificate-info>form{
 div.fill-certificate-info>form>div{
     display: flex;
     flex-flow: column nowrap;
-    justify-content: ;
+    /* justify-content: ; */
     align-items: flex-start;
     width: 90%;
     /* padding: 0px 10px; */
@@ -319,6 +320,7 @@ section.sec2>.col-2>.display-certificate{
     background-position: center;
     position: relative;
 }
+
 /* add-child-element-add starts here */
 section>div.col-2>.display-certificate>.add-child-element-add{
     border:2px solid gold;
